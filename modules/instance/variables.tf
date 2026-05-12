@@ -19,3 +19,8 @@ variable "name" {
   description = "Name tag for the resource"
   type        = string
 }
+
+variable "iam_instance_profile" {
+  description = "The IAM instance profile to use for the instance"
+  type        = string
+}
